@@ -10,7 +10,7 @@ RUN bun install --production
 COPY src src
 COPY tsconfig.json .
 
-EXPOSE 3000
+EXPOSE 8000
 
 ENV NODE_ENV production
 
